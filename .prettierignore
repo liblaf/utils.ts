@@ -1,0 +1,5 @@
+*-lock.*
+*.js
+*.lock
+*.mjs
+*.ts
