@@ -26,10 +26,7 @@ export class FetchError extends Error {
     if (options?.resp) {
       this.status = options.resp.status;
       this.statusText = options.resp.statusText;
-      this.headers = {};
-      options.resp.headers.forEach((value: string, key: string): void => {
-        this.headers![key] = value;
-      });
+      this.headers = Object.fromEntries(options.resp.headers.entries());
     }
     this.body = options?.body;
   }
@@ -42,10 +39,7 @@ export async function fetchUnsafe(
   try {
     const resp: Response = await fetch(input, init);
     if (!resp.ok) {
-      let body: string | undefined;
-      try {
-        body = await resp.text();
-      } catch (err) {}
+      const body: string = await resp.text();
       const err = new FetchError(input, { resp, body });
       logger.error(err);
       throw err;
