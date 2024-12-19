@@ -1,0 +1,10 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 8db5d3c
+_src_path: gh:liblaf/copier-typescript
+author_url: https://github.com/liblaf
+copyright_holder: liblaf
+email: 30631553+liblaf@users.noreply.github.com
+license: MIT
+name: '@liblaf/utils'
+owner: liblaf
+repo: utils.ts
