@@ -1,5 +1,6 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: 8db5d3c
+# prettier-ignore
+_commit: 9fe6cee
 _src_path: gh:liblaf/copier-typescript
 author_url: https://github.com/liblaf
 copyright_holder: liblaf

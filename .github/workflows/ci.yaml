@@ -25,12 +25,12 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
       - name: Pack
-        run: pnpm pack
+        run: pnpm pack --pack-destination pack/
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: pack
-          path: "*.tgz"
+          path: pack/
 
   publish:
     name: Publish
