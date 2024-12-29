@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.0.3](https://github.com/liblaf/utils.ts/compare/v0.0.2...v0.0.3) (2024-12-29)
+
+
+### ⬆️ Dependencies
+
+* **deps:** update dependency @cloudflare/workers-types to v4.20241224.0 ([#7](https://github.com/liblaf/utils.ts/issues/7)) ([506720f](https://github.com/liblaf/utils.ts/commit/506720f3dc88f16ff15171f73892419c0d3dd5bd))
+
+
+### 🔧 Continuous Integration
+
+* add automated workflows and update MegaLinter permissions ([8eb124a](https://github.com/liblaf/utils.ts/commit/8eb124a18a30373e8807dcc43b385e0c58c64c2b))
+* update CI configuration and add TypeScript template ([c07c652](https://github.com/liblaf/utils.ts/commit/c07c6525b955dd6e79238daef6271b7f3c15d672))
+
 ## [0.0.2](https://github.com/liblaf/utils.ts/compare/v0.0.1...v0.0.2) (2024-12-19)
 
 ### ♻ Code Refactoring
