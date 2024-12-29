@@ -1,9 +1,9 @@
 import type { Logger } from "pino";
 import pino from "pino";
-import { isDev } from "./env";
+import { hasTTY } from "std-env";
 
 export function newLogger(options?: { name?: string }): Logger<never, boolean> {
-  if (isDev())
+  if (hasTTY)
     return pino({ name: options?.name, transport: { target: "pino-pretty" } });
   return pino({
     name: options?.name,
