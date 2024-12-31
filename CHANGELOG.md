@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/liblaf/utils.ts/compare/v0.0.3...v0.0.4) (2024-12-31)
+
+
+### ⬆️ Dependencies
+
+* **deps:** update dependency @cloudflare/workers-types to v4.20241230.0 ([#8](https://github.com/liblaf/utils.ts/issues/8)) ([8efe2aa](https://github.com/liblaf/utils.ts/commit/8efe2aa1a2f3d46e3db93cfcc6c2509336da4ed0))
+
 ## [0.0.3](https://github.com/liblaf/utils.ts/compare/v0.0.2...v0.0.3) (2024-12-29)
 
 
