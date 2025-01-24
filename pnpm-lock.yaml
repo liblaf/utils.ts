@@ -32,7 +32,7 @@ importers:
         version: 1.9.4
       '@cloudflare/workers-types':
         specifier: ^4.20241224.0
-        version: 4.20250121.0
+        version: 4.20250124.3
       prettier:
         specifier: ^3.4.2
         version: 3.4.2
@@ -95,8 +95,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@cloudflare/workers-types@4.20250121.0':
-    resolution: {integrity: sha512-2bBosmudcwvUOKzuCL/Jum18LDh3QoU0QnTNMXIgcVwuq3LaNzyZnOW14bFXPhLU/84ZjNO3zO5R/U11Zgag2Q==}
+  '@cloudflare/workers-types@4.20250124.3':
+    resolution: {integrity: sha512-WRZ+ol4RnMroF3tc7en6w8b0MqLrmGnLr2LIhG8EWqIoy8MeYk5uhyNXMZ0WPBhwkRtDcTRwOt61xwnJrthskA==}
 
   '@esbuild/aix-ppc64@0.24.2':
     resolution: {integrity: sha512-thpVCb/rhxE/BnMLQ7GReQLLN8q9qbHmI55F4489/ByVg2aQaQ6kbcLb6FHkocZzQhxc4gx0sCk0tJkKBFzDhA==}
@@ -822,7 +822,7 @@ snapshots:
   '@biomejs/cli-win32-x64@1.9.4':
     optional: true
 
-  '@cloudflare/workers-types@4.20250121.0': {}
+  '@cloudflare/workers-types@4.20250124.3': {}
 
   '@esbuild/aix-ppc64@0.24.2':
     optional: true
