@@ -204,7 +204,7 @@
         {
             "descriptor_id": "ACTION",
             "descriptor_type": "tooling_format",
-            "elapsed_time_s": 0.03679093499999908,
+            "elapsed_time_s": 0.042327846000006275,
             "files": [
                 ".github/workflows/auto-pr.yaml",
                 ".github/workflows/auto-repo.yaml",
@@ -276,7 +276,7 @@
         {
             "descriptor_id": "COPYPASTE",
             "descriptor_type": "other",
-            "elapsed_time_s": 1.2624224539999886,
+            "elapsed_time_s": 1.1479122060000009,
             "files": [],
             "files_lint_results": [],
             "files_number": 0,
@@ -292,7 +292,7 @@
         {
             "descriptor_id": "JSON",
             "descriptor_type": "format",
-            "elapsed_time_s": 0.1628976100000159,
+            "elapsed_time_s": 0.16192427400000042,
             "files": [
                 ".cspell.json",
                 ".github/linters/.devskim.json",
@@ -391,7 +391,7 @@
         {
             "descriptor_id": "JSON",
             "descriptor_type": "format",
-            "elapsed_time_s": 0.3821227069999793,
+            "elapsed_time_s": 0.31493145799998956,
             "files": [
                 ".cspell.json",
                 ".github/linters/.devskim.json",
@@ -417,7 +417,7 @@
         {
             "descriptor_id": "JSON",
             "descriptor_type": "format",
-            "elapsed_time_s": 0.355679374999994,
+            "elapsed_time_s": 0.3546642800000086,
             "files": [
                 ".cspell.json",
                 ".github/linters/.devskim.json",
@@ -516,7 +516,7 @@
         {
             "descriptor_id": "JSON",
             "descriptor_type": "format",
-            "elapsed_time_s": 16.013355545999985,
+            "elapsed_time_s": 13.715496838000007,
             "files": [
                 ".cspell.json",
                 ".github/linters/.devskim.json",
@@ -615,7 +615,7 @@
         {
             "descriptor_id": "MARKDOWN",
             "descriptor_type": "format",
-            "elapsed_time_s": 0.4985472679999816,
+            "elapsed_time_s": 0.4760872410000161,
             "files": [
                 "CHANGELOG.md",
                 "README.md"
@@ -651,7 +651,7 @@
         {
             "descriptor_id": "REPOSITORY",
             "descriptor_type": "other",
-            "elapsed_time_s": 16.377821331999996,
+            "elapsed_time_s": 15.790606378999996,
             "files": [],
             "files_lint_results": [],
             "files_number": 0,
@@ -667,7 +667,7 @@
         {
             "descriptor_id": "REPOSITORY",
             "descriptor_type": "other",
-            "elapsed_time_s": 1.1142871300000081,
+            "elapsed_time_s": 1.0044733250000206,
             "files": [],
             "files_lint_results": [],
             "files_number": 0,
@@ -683,7 +683,7 @@
         {
             "descriptor_id": "REPOSITORY",
             "descriptor_type": "other",
-            "elapsed_time_s": 0.24512000199999306,
+            "elapsed_time_s": 0.25491337700000827,
             "files": [],
             "files_lint_results": [],
             "files_number": 0,
@@ -699,7 +699,7 @@
         {
             "descriptor_id": "REPOSITORY",
             "descriptor_type": "other",
-            "elapsed_time_s": 0.07895794800000999,
+            "elapsed_time_s": 0.07593355299999871,
             "files": [],
             "files_lint_results": [],
             "files_number": 0,
@@ -715,7 +715,7 @@
         {
             "descriptor_id": "REPOSITORY",
             "descriptor_type": "other",
-            "elapsed_time_s": 0.004525577999999086,
+            "elapsed_time_s": 0.00409206599999834,
             "files": [],
             "files_lint_results": [],
             "files_number": 0,
@@ -731,7 +731,7 @@
         {
             "descriptor_id": "REPOSITORY",
             "descriptor_type": "other",
-            "elapsed_time_s": 9.500325783000022,
+            "elapsed_time_s": 9.472127840000013,
             "files": [],
             "files_lint_results": [],
             "files_number": 0,
@@ -747,7 +747,7 @@
         {
             "descriptor_id": "REPOSITORY",
             "descriptor_type": "other",
-            "elapsed_time_s": 1.623734589999998,
+            "elapsed_time_s": 2.0939023199999838,
             "files": [],
             "files_lint_results": [],
             "files_number": 0,
@@ -763,7 +763,7 @@
         {
             "descriptor_id": "REPOSITORY",
             "descriptor_type": "other",
-            "elapsed_time_s": 0.9826959380000062,
+            "elapsed_time_s": 0.9440836469999851,
             "files": [],
             "files_lint_results": [],
             "files_number": 0,
@@ -779,7 +779,7 @@
         {
             "descriptor_id": "REPOSITORY",
             "descriptor_type": "other",
-            "elapsed_time_s": 1.1507544339999924,
+            "elapsed_time_s": 1.0857189240000196,
             "files": [],
             "files_lint_results": [],
             "files_number": 0,
@@ -795,7 +795,7 @@
         {
             "descriptor_id": "REPOSITORY",
             "descriptor_type": "other",
-            "elapsed_time_s": 4.723863406999982,
+            "elapsed_time_s": 5.062546647999994,
             "files": [],
             "files_lint_results": [],
             "files_number": 0,
@@ -811,7 +811,7 @@
         {
             "descriptor_id": "REPOSITORY",
             "descriptor_type": "other",
-            "elapsed_time_s": 0.08017902800000343,
+            "elapsed_time_s": 0.07787999699999659,
             "files": [],
             "files_lint_results": [],
             "files_number": 0,
@@ -827,7 +827,7 @@
         {
             "descriptor_id": "REPOSITORY",
             "descriptor_type": "other",
-            "elapsed_time_s": 2.4249024180000163,
+            "elapsed_time_s": 2.570368519999988,
             "files": [],
             "files_lint_results": [],
             "files_number": 0,
@@ -843,7 +843,7 @@
         {
             "descriptor_id": "SPELL",
             "descriptor_type": "other",
-            "elapsed_time_s": 3.154172060999997,
+            "elapsed_time_s": 3.026553603999986,
             "files": [
                 ".cspell.json",
                 ".github/.mega-linter.yaml",
@@ -873,7 +873,7 @@
                 "package.json",
                 "pnpm-lock.yaml",
                 "tsconfig.json",
-                "/github/workspace/d80e469b-b175-4f82-8a8e-ca14a1feb519-megalinter_file_names_cspell.txt"
+                "/github/workspace/ba8860fd-961f-4272-8f84-f550aea1a0bc-megalinter_file_names_cspell.txt"
             ],
             "files_lint_results": [
                 {
@@ -1102,7 +1102,7 @@
                 },
                 {
                     "errors_number": null,
-                    "file": "/github/workspace/d80e469b-b175-4f82-8a8e-ca14a1feb519-megalinter_file_names_cspell.txt",
+                    "file": "/github/workspace/ba8860fd-961f-4272-8f84-f550aea1a0bc-megalinter_file_names_cspell.txt",
                     "fixed": false,
                     "status": null,
                     "status_code": null,
@@ -1122,7 +1122,7 @@
         {
             "descriptor_id": "SPELL",
             "descriptor_type": "other",
-            "elapsed_time_s": 0.9382869620000065,
+            "elapsed_time_s": 1.0877812239999969,
             "files": [
                 ".cspell.json",
                 ".github/.mega-linter.yaml",
@@ -1365,7 +1365,7 @@
         {
             "descriptor_id": "YAML",
             "descriptor_type": "format",
-            "elapsed_time_s": 0.6992787530000157,
+            "elapsed_time_s": 0.6566272229999868,
             "files": [
                 ".github/.mega-linter.yaml",
                 ".github/copier/.copier-answers.release.yaml",
@@ -1491,7 +1491,7 @@
         {
             "descriptor_id": "YAML",
             "descriptor_type": "format",
-            "elapsed_time_s": 6.973080803000016,
+            "elapsed_time_s": 6.836227603999987,
             "files": [
                 ".github/.mega-linter.yaml",
                 ".github/copier/.copier-answers.release.yaml",
@@ -1626,7 +1626,7 @@
         {
             "descriptor_id": "YAML",
             "descriptor_type": "format",
-            "elapsed_time_s": 1.0543875259999993,
+            "elapsed_time_s": 1.084632469000013,
             "files": [
                 ".github/.mega-linter.yaml",
                 ".github/copier/.copier-answers.release.yaml",
