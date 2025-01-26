@@ -1,0 +1,1833 @@
+{
+    "file_extensions": [
+        ".py",
+        ".yml",
+        ".yaml",
+        ".json",
+        "",
+        ".sh",
+        ".bash",
+        ".dash",
+        ".ksh",
+        ".bicep",
+        ".c",
+        ".h",
+        ".clj",
+        ".cljs",
+        ".cljc",
+        ".edn",
+        ".coffee",
+        ".cpp",
+        ".cc",
+        ".hpp",
+        ".cxx",
+        ".cu",
+        ".hxx",
+        ".c++",
+        ".hh",
+        ".h++",
+        ".cuh",
+        ".cs",
+        ".csproj",
+        ".css",
+        ".scss",
+        ".saas",
+        ".dart",
+        ".env",
+        ".feature",
+        ".go",
+        ".graphql",
+        ".groovy",
+        ".gvy",
+        ".gradle",
+        ".nf",
+        ".html",
+        ".htm",
+        ".java",
+        ".kt",
+        ".kts",
+        ".tex",
+        ".lua",
+        ".md",
+        ".mdx",
+        ".pl",
+        ".pm",
+        ".t",
+        ".php",
+        ".ps1",
+        ".psm1",
+        ".psd1",
+        ".ps1xml",
+        ".pssc",
+        ".psrc",
+        ".cdxml",
+        ".proto",
+        ".pp",
+        ".r",
+        ".R",
+        ".Rmd",
+        ".RMD",
+        ".raku",
+        ".rakumod",
+        ".rakutest",
+        ".pm6",
+        ".pl6",
+        ".p6",
+        ".rst",
+        ".rb",
+        ".rs",
+        ".scala",
+        ".smk",
+        ".markdown",
+        ".txt",
+        ".jsonc",
+        ".json5",
+        ".sql",
+        ".tf",
+        ".hcl",
+        ".vb",
+        ".xml",
+        ".xsd"
+    ],
+    "file_names_regex": [
+        "Containerfile",
+        "Dockerfile",
+        "Jenkinsfile",
+        "package\\.json",
+        "Snakefile"
+    ],
+    "flavor_suggestions": [
+        {
+            "flavor": "cupcake",
+            "flavor_info": {
+                "descriptors": [
+                    "BASH",
+                    "CLOJURE",
+                    "GO",
+                    "JAVA",
+                    "KOTLIN",
+                    "PHP",
+                    "TYPESCRIPT"
+                ],
+                "label": "MegaLinter for the most commonly used languages",
+                "linters": [
+                    "ACTION_ACTIONLINT",
+                    "ANSIBLE_ANSIBLE_LINT",
+                    "BASH_EXEC",
+                    "BASH_SHELLCHECK",
+                    "BASH_SHFMT",
+                    "C_CPPLINT",
+                    "CLOJURE_CLJ_KONDO",
+                    "CLOUDFORMATION_CFN_LINT",
+                    "COPYPASTE_JSCPD",
+                    "CPP_CPPLINT",
+                    "CSS_STYLELINT",
+                    "DOCKERFILE_HADOLINT",
+                    "EDITORCONFIG_EDITORCONFIG_CHECKER",
+                    "ENV_DOTENV_LINTER",
+                    "GO_GOLANGCI_LINT",
+                    "GO_REVIVE",
+                    "GRAPHQL_GRAPHQL_SCHEMA_LINTER",
+                    "GROOVY_NPM_GROOVY_LINT",
+                    "HTML_DJLINT",
+                    "HTML_HTMLHINT",
+                    "JAVA_CHECKSTYLE",
+                    "JAVA_PMD",
+                    "JAVASCRIPT_ES",
+                    "JAVASCRIPT_STANDARD",
+                    "JAVASCRIPT_PRETTIER",
+                    "JSON_JSONLINT",
+                    "JSON_V8R",
+                    "JSON_PRETTIER",
+                    "JSON_NPM_PACKAGE_JSON_LINT",
+                    "JSX_ESLINT",
+                    "KOTLIN_KTLINT",
+                    "KOTLIN_DETEKT",
+                    "KUBERNETES_KUBECONFORM",
+                    "KUBERNETES_HELM",
+                    "KUBERNETES_KUBESCAPE",
+                    "MARKDOWN_MARKDOWNLINT",
+                    "MARKDOWN_MARKDOWN_LINK_CHECK",
+                    "MARKDOWN_MARKDOWN_TABLE_FORMATTER",
+                    "PHP_PHPCS",
+                    "PHP_PHPSTAN",
+                    "PHP_PSALM",
+                    "PHP_PHPLINT",
+                    "PHP_PHPCSFIXER",
+                    "PYTHON_PYLINT",
+                    "PYTHON_BLACK",
+                    "PYTHON_FLAKE8",
+                    "PYTHON_ISORT",
+                    "PYTHON_MYPY",
+                    "PYTHON_PYRIGHT",
+                    "PYTHON_RUFF",
+                    "REPOSITORY_CHECKOV",
+                    "REPOSITORY_GIT_DIFF",
+                    "REPOSITORY_GITLEAKS",
+                    "REPOSITORY_GRYPE",
+                    "REPOSITORY_KICS",
+                    "REPOSITORY_LS_LINT",
+                    "REPOSITORY_SECRETLINT",
+                    "REPOSITORY_SEMGREP",
+                    "REPOSITORY_TRIVY",
+                    "REPOSITORY_TRIVY_SBOM",
+                    "REPOSITORY_TRUFFLEHOG",
+                    "RST_RST_LINT",
+                    "RST_RSTCHECK",
+                    "RST_RSTFMT",
+                    "RUBY_RUBOCOP",
+                    "RUST_CLIPPY",
+                    "SPELL_CSPELL",
+                    "SPELL_PROSELINT",
+                    "SPELL_LYCHEE",
+                    "SQL_SQLFLUFF",
+                    "SWIFT_SWIFTLINT",
+                    "TERRAFORM_TFLINT",
+                    "TERRAFORM_TERRASCAN",
+                    "TERRAFORM_TERRAGRUNT",
+                    "TERRAFORM_TERRAFORM_FMT",
+                    "TSX_ESLINT",
+                    "TYPESCRIPT_ES",
+                    "TYPESCRIPT_STANDARD",
+                    "TYPESCRIPT_PRETTIER",
+                    "XML_XMLLINT",
+                    "YAML_PRETTIER",
+                    "YAML_YAMLLINT",
+                    "YAML_V8R"
+                ]
+            },
+            "linters_number": 83
+        }
+    ],
+    "has_updated_sources": 1,
+    "linters": [
+        {
+            "descriptor_id": "ACTION",
+            "descriptor_type": "tooling_format",
+            "elapsed_time_s": 0.034398690000017496,
+            "files": [
+                ".github/workflows/auto-pr.yaml",
+                ".github/workflows/auto-repo.yaml",
+                ".github/workflows/ci.yaml",
+                ".github/workflows/mega-linter.yaml",
+                ".github/workflows/release-please.yaml",
+                ".github/workflows/release.yaml"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/auto-pr.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/auto-repo.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/ci.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/mega-linter.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/release-please.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/release.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 6,
+            "is_active": true,
+            "linter_name": "actionlint",
+            "name": "ACTION_ACTIONLINT",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "COPYPASTE",
+            "descriptor_type": "other",
+            "elapsed_time_s": 1.2162469330000079,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "jscpd",
+            "name": "COPYPASTE_JSCPD",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "JSON",
+            "descriptor_type": "format",
+            "elapsed_time_s": 0.1586403750000045,
+            "files": [
+                ".cspell.json",
+                ".github/linters/.devskim.json",
+                ".github/linters/pyrightconfig.json",
+                ".github/release-please/config.json",
+                ".github/renovate.json",
+                ".vscode/settings.json",
+                "biome.json",
+                "package.json",
+                "tsconfig.json"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": ".cspell.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/linters/.devskim.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/linters/pyrightconfig.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/release-please/config.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/renovate.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".vscode/settings.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "biome.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "package.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "tsconfig.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 9,
+            "is_active": true,
+            "linter_name": "jsonlint",
+            "name": "JSON_JSONLINT",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "JSON",
+            "descriptor_type": "format",
+            "elapsed_time_s": 0.3098087080000198,
+            "files": [
+                ".cspell.json",
+                ".github/linters/.devskim.json",
+                ".github/linters/pyrightconfig.json",
+                ".github/release-please/config.json",
+                ".github/renovate.json",
+                ".vscode/settings.json",
+                "biome.json",
+                "package.json",
+                "tsconfig.json"
+            ],
+            "files_lint_results": [],
+            "files_number": 9,
+            "is_active": true,
+            "linter_name": "npm-package-json-lint",
+            "name": "JSON_NPM_PACKAGE_JSON_LINT",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "JSON",
+            "descriptor_type": "format",
+            "elapsed_time_s": 0.32006208199999264,
+            "files": [
+                ".cspell.json",
+                ".github/linters/.devskim.json",
+                ".github/linters/pyrightconfig.json",
+                ".github/release-please/config.json",
+                ".github/renovate.json",
+                ".vscode/settings.json",
+                "biome.json",
+                "package.json",
+                "tsconfig.json"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": ".cspell.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/linters/.devskim.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/linters/pyrightconfig.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/release-please/config.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/renovate.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".vscode/settings.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "biome.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "package.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "tsconfig.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 9,
+            "is_active": true,
+            "linter_name": "prettier",
+            "name": "JSON_PRETTIER",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "JSON",
+            "descriptor_type": "format",
+            "elapsed_time_s": 15.95132534999999,
+            "files": [
+                ".cspell.json",
+                ".github/linters/.devskim.json",
+                ".github/linters/pyrightconfig.json",
+                ".github/release-please/config.json",
+                ".github/renovate.json",
+                ".vscode/settings.json",
+                "biome.json",
+                "package.json",
+                "tsconfig.json"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": ".cspell.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/linters/.devskim.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/linters/pyrightconfig.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/release-please/config.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/renovate.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".vscode/settings.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "biome.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "package.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "tsconfig.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 9,
+            "is_active": true,
+            "linter_name": "v8r",
+            "name": "JSON_V8R",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "MARKDOWN",
+            "descriptor_type": "format",
+            "elapsed_time_s": 0.4954016920000015,
+            "files": [
+                "CHANGELOG.md",
+                "README.md"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": "CHANGELOG.md",
+                    "fixed": true,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "README.md",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 2,
+            "is_active": true,
+            "linter_name": "prettier",
+            "name": "MARKDOWN_PRETTIER",
+            "number_errors": 0,
+            "number_fixed": 1,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "REPOSITORY",
+            "descriptor_type": "other",
+            "elapsed_time_s": 14.360796945000004,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "checkov",
+            "name": "REPOSITORY_CHECKOV",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "REPOSITORY",
+            "descriptor_type": "other",
+            "elapsed_time_s": 1.064290466000017,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "devskim",
+            "name": "REPOSITORY_DEVSKIM",
+            "number_errors": 1,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "warning",
+            "total_number_errors": 1
+        },
+        {
+            "descriptor_id": "REPOSITORY",
+            "descriptor_type": "other",
+            "elapsed_time_s": 0.23694568300001606,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "dustilock",
+            "name": "REPOSITORY_DUSTILOCK",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "REPOSITORY",
+            "descriptor_type": "other",
+            "elapsed_time_s": 0.062280579000002945,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "gitleaks",
+            "name": "REPOSITORY_GITLEAKS",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "REPOSITORY",
+            "descriptor_type": "other",
+            "elapsed_time_s": 0.003211547000006476,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "git_diff",
+            "name": "REPOSITORY_GIT_DIFF",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "REPOSITORY",
+            "descriptor_type": "other",
+            "elapsed_time_s": 9.52338350300002,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "grype",
+            "name": "REPOSITORY_GRYPE",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "REPOSITORY",
+            "descriptor_type": "other",
+            "elapsed_time_s": 1.1428666630000066,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "kics",
+            "name": "REPOSITORY_KICS",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "REPOSITORY",
+            "descriptor_type": "other",
+            "elapsed_time_s": 0.8582558789999837,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "secretlint",
+            "name": "REPOSITORY_SECRETLINT",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "REPOSITORY",
+            "descriptor_type": "other",
+            "elapsed_time_s": 1.228013570999991,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "syft",
+            "name": "REPOSITORY_SYFT",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "REPOSITORY",
+            "descriptor_type": "other",
+            "elapsed_time_s": 4.692899176999987,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "trivy",
+            "name": "REPOSITORY_TRIVY",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "REPOSITORY",
+            "descriptor_type": "other",
+            "elapsed_time_s": 0.08436603699999523,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "trivy-sbom",
+            "name": "REPOSITORY_TRIVY_SBOM",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "REPOSITORY",
+            "descriptor_type": "other",
+            "elapsed_time_s": 2.243923912000014,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "trufflehog",
+            "name": "REPOSITORY_TRUFFLEHOG",
+            "number_errors": 1,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "warning",
+            "total_number_errors": 1
+        },
+        {
+            "descriptor_id": "SPELL",
+            "descriptor_type": "other",
+            "elapsed_time_s": 3.0793275930000163,
+            "files": [
+                ".cspell.json",
+                ".github/.mega-linter.yaml",
+                ".github/copier/.copier-answers.release.yaml",
+                ".github/copier/.copier-answers.share.yaml",
+                ".github/copier/.copier-answers.typescript.yaml",
+                ".github/linters/.checkov.yml",
+                ".github/linters/.devskim.json",
+                ".github/linters/pyrightconfig.json",
+                ".github/release-please/.manifest.json",
+                ".github/release-please/config.json",
+                ".github/renovate.json",
+                ".github/workflows/auto-pr.yaml",
+                ".github/workflows/auto-repo.yaml",
+                ".github/workflows/ci.yaml",
+                ".github/workflows/mega-linter.yaml",
+                ".github/workflows/release-please.yaml",
+                ".github/workflows/release.yaml",
+                ".gitignore",
+                ".mega-linter.yml",
+                ".prettierignore",
+                ".vscode/settings.json",
+                "CHANGELOG.md",
+                "LICENSE",
+                "README.md",
+                "biome.json",
+                "package.json",
+                "pnpm-lock.yaml",
+                "tsconfig.json",
+                "/github/workspace/a3181538-3ac6-44b1-b4b7-08c0746635f0-megalinter_file_names_cspell.txt"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": ".cspell.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/.mega-linter.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/copier/.copier-answers.release.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/copier/.copier-answers.share.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/copier/.copier-answers.typescript.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/linters/.checkov.yml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/linters/.devskim.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/linters/pyrightconfig.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/release-please/.manifest.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/release-please/config.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/renovate.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/auto-pr.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/auto-repo.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/ci.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/mega-linter.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/release-please.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/release.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".gitignore",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".mega-linter.yml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".prettierignore",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".vscode/settings.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "CHANGELOG.md",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "LICENSE",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "README.md",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "biome.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "package.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "pnpm-lock.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "tsconfig.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/a3181538-3ac6-44b1-b4b7-08c0746635f0-megalinter_file_names_cspell.txt",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 28,
+            "is_active": true,
+            "linter_name": "cspell",
+            "name": "SPELL_CSPELL",
+            "number_errors": 1,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "warning",
+            "total_number_errors": 2
+        },
+        {
+            "descriptor_id": "SPELL",
+            "descriptor_type": "other",
+            "elapsed_time_s": 0.8121306390000029,
+            "files": [
+                ".cspell.json",
+                ".github/.mega-linter.yaml",
+                ".github/copier/.copier-answers.release.yaml",
+                ".github/copier/.copier-answers.share.yaml",
+                ".github/copier/.copier-answers.typescript.yaml",
+                ".github/linters/.checkov.yml",
+                ".github/linters/.devskim.json",
+                ".github/linters/pyrightconfig.json",
+                ".github/release-please/.manifest.json",
+                ".github/release-please/config.json",
+                ".github/renovate.json",
+                ".github/workflows/auto-pr.yaml",
+                ".github/workflows/auto-repo.yaml",
+                ".github/workflows/ci.yaml",
+                ".github/workflows/mega-linter.yaml",
+                ".github/workflows/release-please.yaml",
+                ".github/workflows/release.yaml",
+                ".mega-linter.yml",
+                ".vscode/settings.json",
+                "CHANGELOG.md",
+                "README.md",
+                "biome.json",
+                "package.json",
+                "pnpm-lock.yaml",
+                "tsconfig.json"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": ".cspell.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/.mega-linter.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/copier/.copier-answers.release.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/copier/.copier-answers.share.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/copier/.copier-answers.typescript.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/linters/.checkov.yml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/linters/.devskim.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/linters/pyrightconfig.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/release-please/.manifest.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/release-please/config.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/renovate.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/auto-pr.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/auto-repo.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/ci.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/mega-linter.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/release-please.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/release.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".mega-linter.yml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".vscode/settings.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "CHANGELOG.md",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "README.md",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "biome.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "package.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "pnpm-lock.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "tsconfig.json",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 25,
+            "is_active": true,
+            "linter_name": "lychee",
+            "name": "SPELL_LYCHEE",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "YAML",
+            "descriptor_type": "format",
+            "elapsed_time_s": 0.619886030999993,
+            "files": [
+                ".github/.mega-linter.yaml",
+                ".github/copier/.copier-answers.release.yaml",
+                ".github/copier/.copier-answers.share.yaml",
+                ".github/copier/.copier-answers.typescript.yaml",
+                ".github/linters/.checkov.yml",
+                ".github/workflows/auto-pr.yaml",
+                ".github/workflows/auto-repo.yaml",
+                ".github/workflows/ci.yaml",
+                ".github/workflows/mega-linter.yaml",
+                ".github/workflows/release-please.yaml",
+                ".github/workflows/release.yaml",
+                ".mega-linter.yml"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": ".github/.mega-linter.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/copier/.copier-answers.release.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/copier/.copier-answers.share.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/copier/.copier-answers.typescript.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/linters/.checkov.yml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/auto-pr.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/auto-repo.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/ci.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/mega-linter.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/release-please.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/release.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".mega-linter.yml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 12,
+            "is_active": true,
+            "linter_name": "prettier",
+            "name": "YAML_PRETTIER",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "YAML",
+            "descriptor_type": "format",
+            "elapsed_time_s": 6.623391980000008,
+            "files": [
+                ".github/.mega-linter.yaml",
+                ".github/copier/.copier-answers.release.yaml",
+                ".github/copier/.copier-answers.share.yaml",
+                ".github/copier/.copier-answers.typescript.yaml",
+                ".github/linters/.checkov.yml",
+                ".github/workflows/auto-pr.yaml",
+                ".github/workflows/auto-repo.yaml",
+                ".github/workflows/ci.yaml",
+                ".github/workflows/mega-linter.yaml",
+                ".github/workflows/release-please.yaml",
+                ".github/workflows/release.yaml",
+                ".mega-linter.yml",
+                "pnpm-lock.yaml"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": ".github/.mega-linter.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/copier/.copier-answers.release.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/copier/.copier-answers.share.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/copier/.copier-answers.typescript.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/linters/.checkov.yml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/auto-pr.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/auto-repo.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/ci.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/mega-linter.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/release-please.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/release.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".mega-linter.yml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "pnpm-lock.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 13,
+            "is_active": true,
+            "linter_name": "v8r",
+            "name": "YAML_V8R",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "YAML",
+            "descriptor_type": "format",
+            "elapsed_time_s": 1.0406680929999936,
+            "files": [
+                ".github/.mega-linter.yaml",
+                ".github/copier/.copier-answers.release.yaml",
+                ".github/copier/.copier-answers.share.yaml",
+                ".github/copier/.copier-answers.typescript.yaml",
+                ".github/linters/.checkov.yml",
+                ".github/workflows/auto-pr.yaml",
+                ".github/workflows/auto-repo.yaml",
+                ".github/workflows/ci.yaml",
+                ".github/workflows/mega-linter.yaml",
+                ".github/workflows/release-please.yaml",
+                ".github/workflows/release.yaml",
+                ".mega-linter.yml",
+                "pnpm-lock.yaml"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": ".github/.mega-linter.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/copier/.copier-answers.release.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/copier/.copier-answers.share.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/copier/.copier-answers.typescript.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/linters/.checkov.yml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/auto-pr.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/auto-repo.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/ci.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/mega-linter.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/release-please.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".github/workflows/release.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": ".mega-linter.yml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "pnpm-lock.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 13,
+            "is_active": true,
+            "linter_name": "yamllint",
+            "name": "YAML_YAMLLINT",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        }
+    ],
+    "post_commands_results": [],
+    "pre_commands_results": [],
+    "report_folder": "/github/workspace/megalinter-reports",
+    "reporters": [
+        {
+            "is_active": true,
+            "master": null,
+            "name": "CONFIG",
+            "processing_order": 0,
+            "report_folder": "/github/workspace/megalinter-reports",
+            "report_items": []
+        },
+        {
+            "is_active": true,
+            "master": null,
+            "name": "MARKDOWN_SUMMARY",
+            "processing_order": 0,
+            "report_folder": "/github/workspace/megalinter-reports",
+            "report_items": []
+        },
+        {
+            "is_active": true,
+            "master": null,
+            "name": "UPDATED_SOURCES",
+            "processing_order": 0,
+            "report_folder": "/github/workspace/megalinter-reports",
+            "report_items": []
+        },
+        {
+            "is_active": true,
+            "master": null,
+            "name": "GITLAB_COMMENT",
+            "processing_order": 0,
+            "report_folder": "/github/workspace/megalinter-reports",
+            "report_items": []
+        },
+        {
+            "is_active": true,
+            "master": null,
+            "name": "JSON",
+            "processing_order": 0,
+            "report_folder": "/github/workspace/megalinter-reports",
+            "report_items": []
+        },
+        {
+            "is_active": true,
+            "master": null,
+            "name": "SARIF",
+            "processing_order": 0,
+            "report_folder": "/github/workspace/megalinter-reports",
+            "report_items": []
+        },
+        {
+            "is_active": true,
+            "master": null,
+            "name": "GITHUB_COMMENT",
+            "processing_order": 0,
+            "report_folder": "/github/workspace/megalinter-reports",
+            "report_items": []
+        },
+        {
+            "is_active": true,
+            "master": null,
+            "name": "CONSOLE",
+            "processing_order": 0,
+            "report_folder": "/github/workspace/megalinter-reports",
+            "report_items": []
+        }
+    ],
+    "return_code": 0,
+    "status": "warning"
+}

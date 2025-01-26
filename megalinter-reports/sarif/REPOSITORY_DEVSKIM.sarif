@@ -1,0 +1,146 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.6.json",
+  "runs": [
+    {
+      "columnKind": "utf16CodeUnits",
+      "properties": {
+        "megalinter": {
+          "docUrl": "https://megalinter.io/8.3.0/descriptors/repository_devskim",
+          "linterKey": "REPOSITORY_DEVSKIM",
+          "linterVersion": "1.0.44"
+        }
+      },
+      "results": [
+        {
+          "fixes": [
+            {
+              "artifactChanges": [
+                {
+                  "artifactLocation": {
+                    "uri": "pnpm-lock.yaml"
+                  },
+                  "replacements": [
+                    {
+                      "deletedRegion": {
+                        "charLength": 3,
+                        "charOffset": 28573
+                      },
+                      "insertedContent": {
+                        "text": "SHA256"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "description": {
+                "text": "A weak or broken hash algorithm was detected."
+              }
+            },
+            {
+              "artifactChanges": [
+                {
+                  "artifactLocation": {
+                    "uri": "pnpm-lock.yaml"
+                  },
+                  "replacements": [
+                    {
+                      "deletedRegion": {
+                        "charLength": 3,
+                        "charOffset": 28573
+                      },
+                      "insertedContent": {
+                        "text": "SHA512"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "description": {
+                "text": "A weak or broken hash algorithm was detected."
+              }
+            }
+          ],
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pnpm-lock.yaml"
+                },
+                "region": {
+                  "charLength": 3,
+                  "charOffset": 28573,
+                  "endColumn": 78,
+                  "endLine": 711,
+                  "snippet": {
+                    "rendered": {
+                      "markdown": "`MD2`",
+                      "text": "MD2"
+                    },
+                    "text": "MD2"
+                  },
+                  "sourceLanguage": "yaml",
+                  "startColumn": 75,
+                  "startLine": 711
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Weak/Broken Hash Algorithm"
+          },
+          "properties": {
+            "DevSkimConfidence": "High",
+            "DevSkimSeverity": "Critical",
+            "tags": [
+              "Cryptography.BannedHashAlgorithm"
+            ]
+          },
+          "ruleId": "DS126858"
+        }
+      ],
+      "tool": {
+        "driver": {
+          "fullName": "Microsoft DevSkim Command Line Interface",
+          "informationUri": "https://github.com/microsoft/DevSkim/",
+          "name": "devskim (MegaLinter REPOSITORY_DEVSKIM)",
+          "rules": [
+            {
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "fullDescription": {
+                "text": "Weak/Broken Hash Algorithm: A weak or broken hash algorithm was detected."
+              },
+              "help": {
+                "markdown": "Visit [https://github.com/Microsoft/DevSkim/blob/main/guidance/DS126858.md](https://github.com/Microsoft/DevSkim/blob/main/guidance/DS126858.md) for guidance on this issue.",
+                "text": "Consider switching to use SHA-256 or SHA-512 instead."
+              },
+              "helpUri": "https://github.com/Microsoft/DevSkim/blob/main/guidance/DS126858.md",
+              "id": "DS126858",
+              "name": "WeakbrokenHashAlgorithm",
+              "properties": {
+                "DevSkimConfidence": "High",
+                "DevSkimSeverity": "Critical",
+                "precision": "high",
+                "problem.severity": "error"
+              },
+              "shortDescription": {
+                "text": "A weak or broken hash algorithm was detected."
+              }
+            }
+          ],
+          "version": "1.0.44+10b85ce690"
+        }
+      },
+      "versionControlProvenance": [
+        {
+          "branch": "main",
+          "repositoryUri": "https://github.com/liblaf/utils.ts",
+          "revisionId": "fc6238375d9f851e52cc257c4b47b7fb49c3ad25"
+        }
+      ]
+    }
+  ],
+  "version": "2.1.0"
+}
