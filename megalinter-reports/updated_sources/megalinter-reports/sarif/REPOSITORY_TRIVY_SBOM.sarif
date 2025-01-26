@@ -20,10 +20,10 @@
                         "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
                         "bomFormat": "CycloneDX",
                         "specVersion": "1.6",
-                        "serialNumber": "urn:uuid:a12c910f-aa59-44f1-90a4-0ea0a976d50c",
+                        "serialNumber": "urn:uuid:a8c12ab3-8b65-484b-ad24-50e1f35d27a0",
                         "version": 1,
                         "metadata": {
-                            "timestamp": "2025-01-26T03:28:59+00:00",
+                            "timestamp": "2025-01-26T03:32:02+00:00",
                             "tools": {
                                 "components": [
                                     {
@@ -35,7 +35,7 @@
                                 ]
                             },
                             "component": {
-                                "bom-ref": "6c5f4703-bdb5-4d85-b8b7-6fd467294c6a",
+                                "bom-ref": "100142f3-e60b-4991-904e-7e747773f86a",
                                 "type": "application",
                                 "name": ".",
                                 "properties": [
@@ -48,7 +48,7 @@
                         },
                         "components": [
                             {
-                                "bom-ref": "f90e9671-24f0-47fb-bba7-ad22ffa98552",
+                                "bom-ref": "5bf2780b-49b6-4fdd-a886-baa2934c5249",
                                 "type": "application",
                                 "name": "pnpm-lock.yaml",
                                 "properties": [
@@ -592,13 +592,13 @@
                         ],
                         "dependencies": [
                             {
-                                "ref": "6c5f4703-bdb5-4d85-b8b7-6fd467294c6a",
+                                "ref": "100142f3-e60b-4991-904e-7e747773f86a",
                                 "dependsOn": [
-                                    "f90e9671-24f0-47fb-bba7-ad22ffa98552"
+                                    "5bf2780b-49b6-4fdd-a886-baa2934c5249"
                                 ]
                             },
                             {
-                                "ref": "f90e9671-24f0-47fb-bba7-ad22ffa98552",
+                                "ref": "5bf2780b-49b6-4fdd-a886-baa2934c5249",
                                 "dependsOn": [
                                     "pkg:npm/js-base64@3.7.7",
                                     "pkg:npm/loupe@3.1.2",
