@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:71ff105f-0768-40f6-9ea2-31549b0f5f9c",
+  "serialNumber": "urn:uuid:01a42f7c-1210-4e30-b03c-64332f894429",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-01-26T04:26:36+00:00",
+    "timestamp": "2025-01-26T04:29:43+00:00",
     "tools": {
       "components": [
         {
@@ -17,7 +17,7 @@
       ]
     },
     "component": {
-      "bom-ref": "27ddb666-90c1-487c-b072-e6e73c563b98",
+      "bom-ref": "9fde0a11-344c-49ef-8733-faa9c137114b",
       "type": "application",
       "name": ".",
       "properties": [
@@ -30,7 +30,7 @@
   },
   "components": [
     {
-      "bom-ref": "1f417e6f-2199-4de1-9fca-779148e4a62b",
+      "bom-ref": "bca255f0-ccc5-445b-bd17-793b91387709",
       "type": "application",
       "name": "pnpm-lock.yaml",
       "properties": [
@@ -574,7 +574,13 @@
   ],
   "dependencies": [
     {
-      "ref": "1f417e6f-2199-4de1-9fca-779148e4a62b",
+      "ref": "9fde0a11-344c-49ef-8733-faa9c137114b",
+      "dependsOn": [
+        "bca255f0-ccc5-445b-bd17-793b91387709"
+      ]
+    },
+    {
+      "ref": "bca255f0-ccc5-445b-bd17-793b91387709",
       "dependsOn": [
         "pkg:npm/js-base64@3.7.7",
         "pkg:npm/loupe@3.1.2",
@@ -582,12 +588,6 @@
         "pkg:npm/pino@9.6.0",
         "pkg:npm/std-env@3.8.0",
         "pkg:npm/typescript@5.7.2"
-      ]
-    },
-    {
-      "ref": "27ddb666-90c1-487c-b072-e6e73c563b98",
-      "dependsOn": [
-        "1f417e6f-2199-4de1-9fca-779148e4a62b"
       ]
     },
     {
