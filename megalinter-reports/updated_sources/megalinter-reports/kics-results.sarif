@@ -35,33 +35,63 @@
 							}
 						},
 						{
-							"name": "Build Process",
-							"id": "CAT005",
+							"name": "Observability",
+							"id": "CAT010",
 							"shortDescription": {
-								"text": "Insecure configurations when building/deploying"
+								"text": "Logging and Monitoring"
 							},
 							"fullDescription": {
-								"text": "Insecure configurations when building/deploying"
+								"text": "Logging and Monitoring"
 							}
 						},
 						{
-							"name": "Networking and Firewall",
-							"id": "CAT009",
+							"name": "Secret Management",
+							"id": "CAT012",
 							"shortDescription": {
-								"text": "Network port exposure and firewall configuration"
+								"text": "Secret and Key management"
 							},
 							"fullDescription": {
-								"text": "Network port exposure and firewall configuration"
+								"text": "Secret and Key management"
 							}
 						},
 						{
-							"name": "Access Control",
-							"id": "CAT001",
+							"name": "Backup",
+							"id": "CAT003",
 							"shortDescription": {
-								"text": "Service permission and identity management"
+								"text": "Survivability and Recovery"
 							},
 							"fullDescription": {
-								"text": "Service permission and identity management"
+								"text": "Survivability and Recovery"
+							}
+						},
+						{
+							"name": "Availability",
+							"id": "CAT002",
+							"shortDescription": {
+								"text": "Reliability and Scalability"
+							},
+							"fullDescription": {
+								"text": "Reliability and Scalability"
+							}
+						},
+						{
+							"name": "Encryption",
+							"id": "CAT006",
+							"shortDescription": {
+								"text": "Data Security and Encryption configuration"
+							},
+							"fullDescription": {
+								"text": "Data Security and Encryption configuration"
+							}
+						},
+						{
+							"name": "Insecure Configurations",
+							"id": "CAT007",
+							"shortDescription": {
+								"text": "Configurations which expose the application unnecessarily"
+							},
+							"fullDescription": {
+								"text": "Configurations which expose the application unnecessarily"
 							}
 						},
 						{
@@ -95,6 +125,16 @@
 							}
 						},
 						{
+							"name": "Access Control",
+							"id": "CAT001",
+							"shortDescription": {
+								"text": "Service permission and identity management"
+							},
+							"fullDescription": {
+								"text": "Service permission and identity management"
+							}
+						},
+						{
 							"name": "Insecure Defaults",
 							"id": "CAT008",
 							"shortDescription": {
@@ -105,43 +145,33 @@
 							}
 						},
 						{
-							"name": "Observability",
-							"id": "CAT010",
+							"name": "Resource Management",
+							"id": "CAT011",
 							"shortDescription": {
-								"text": "Logging and Monitoring"
+								"text": "Resource and privilege limit configuration"
 							},
 							"fullDescription": {
-								"text": "Logging and Monitoring"
+								"text": "Resource and privilege limit configuration"
 							}
 						},
 						{
-							"name": "Secret Management",
-							"id": "CAT012",
+							"name": "Build Process",
+							"id": "CAT005",
 							"shortDescription": {
-								"text": "Secret and Key management"
+								"text": "Insecure configurations when building/deploying"
 							},
 							"fullDescription": {
-								"text": "Secret and Key management"
+								"text": "Insecure configurations when building/deploying"
 							}
 						},
 						{
-							"name": "Availability",
-							"id": "CAT002",
+							"name": "Networking and Firewall",
+							"id": "CAT009",
 							"shortDescription": {
-								"text": "Reliability and Scalability"
+								"text": "Network port exposure and firewall configuration"
 							},
 							"fullDescription": {
-								"text": "Reliability and Scalability"
-							}
-						},
-						{
-							"name": "Backup",
-							"id": "CAT003",
-							"shortDescription": {
-								"text": "Survivability and Recovery"
-							},
-							"fullDescription": {
-								"text": "Survivability and Recovery"
+								"text": "Network port exposure and firewall configuration"
 							}
 						},
 						{
@@ -152,36 +182,6 @@
 							},
 							"fullDescription": {
 								"text": "Metadata management"
-							}
-						},
-						{
-							"name": "Encryption",
-							"id": "CAT006",
-							"shortDescription": {
-								"text": "Data Security and Encryption configuration"
-							},
-							"fullDescription": {
-								"text": "Data Security and Encryption configuration"
-							}
-						},
-						{
-							"name": "Insecure Configurations",
-							"id": "CAT007",
-							"shortDescription": {
-								"text": "Configurations which expose the application unnecessarily"
-							},
-							"fullDescription": {
-								"text": "Configurations which expose the application unnecessarily"
-							}
-						},
-						{
-							"name": "Resource Management",
-							"id": "CAT011",
-							"shortDescription": {
-								"text": "Resource and privilege limit configuration"
-							},
-							"fullDescription": {
-								"text": "Resource and privilege limit configuration"
 							}
 						}
 					]
