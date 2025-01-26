@@ -20,10 +20,10 @@
                         "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
                         "bomFormat": "CycloneDX",
                         "specVersion": "1.6",
-                        "serialNumber": "urn:uuid:c05e7795-d54c-4d76-ada3-6a2c90c22fd3",
+                        "serialNumber": "urn:uuid:e3863ebb-2ac4-4d49-9f76-bf3a3f3d8578",
                         "version": 1,
                         "metadata": {
-                            "timestamp": "2025-01-26T05:20:35+00:00",
+                            "timestamp": "2025-01-26T05:23:49+00:00",
                             "tools": {
                                 "components": [
                                     {
@@ -35,7 +35,7 @@
                                 ]
                             },
                             "component": {
-                                "bom-ref": "9a671ccd-e86a-4271-8bae-1cc3200a14e3",
+                                "bom-ref": "ed06a0f4-4db1-4711-bca6-79d81de65c58",
                                 "type": "application",
                                 "name": ".",
                                 "properties": [
@@ -48,7 +48,7 @@
                         },
                         "components": [
                             {
-                                "bom-ref": "04549b88-95f2-4e07-abe0-28fd58fd40f0",
+                                "bom-ref": "07a2f7b0-1a5c-4af8-8ceb-cb9efed9f609",
                                 "type": "application",
                                 "name": "pnpm-lock.yaml",
                                 "properties": [
@@ -592,7 +592,7 @@
                         ],
                         "dependencies": [
                             {
-                                "ref": "04549b88-95f2-4e07-abe0-28fd58fd40f0",
+                                "ref": "07a2f7b0-1a5c-4af8-8ceb-cb9efed9f609",
                                 "dependsOn": [
                                     "pkg:npm/js-base64@3.7.7",
                                     "pkg:npm/loupe@3.1.2",
@@ -603,9 +603,9 @@
                                 ]
                             },
                             {
-                                "ref": "9a671ccd-e86a-4271-8bae-1cc3200a14e3",
+                                "ref": "ed06a0f4-4db1-4711-bca6-79d81de65c58",
                                 "dependsOn": [
-                                    "04549b88-95f2-4e07-abe0-28fd58fd40f0"
+                                    "07a2f7b0-1a5c-4af8-8ceb-cb9efed9f609"
                                 ]
                             },
                             {
