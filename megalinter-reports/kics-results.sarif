@@ -35,16 +35,6 @@
 							}
 						},
 						{
-							"name": "Supply-Chain",
-							"id": "CAT013",
-							"shortDescription": {
-								"text": "Dependency version management"
-							},
-							"fullDescription": {
-								"text": "Dependency version management"
-							}
-						},
-						{
 							"name": "Best Practices",
 							"id": "CAT004",
 							"shortDescription": {
@@ -52,6 +42,26 @@
 							},
 							"fullDescription": {
 								"text": "Metadata management"
+							}
+						},
+						{
+							"name": "Networking and Firewall",
+							"id": "CAT009",
+							"shortDescription": {
+								"text": "Network port exposure and firewall configuration"
+							},
+							"fullDescription": {
+								"text": "Network port exposure and firewall configuration"
+							}
+						},
+						{
+							"name": "Backup",
+							"id": "CAT003",
+							"shortDescription": {
+								"text": "Survivability and Recovery"
+							},
+							"fullDescription": {
+								"text": "Survivability and Recovery"
 							}
 						},
 						{
@@ -65,23 +75,23 @@
 							}
 						},
 						{
-							"name": "Encryption",
-							"id": "CAT006",
+							"name": "Resource Management",
+							"id": "CAT011",
 							"shortDescription": {
-								"text": "Data Security and Encryption configuration"
+								"text": "Resource and privilege limit configuration"
 							},
 							"fullDescription": {
-								"text": "Data Security and Encryption configuration"
+								"text": "Resource and privilege limit configuration"
 							}
 						},
 						{
-							"name": "Insecure Defaults",
-							"id": "CAT008",
+							"name": "Supply-Chain",
+							"id": "CAT013",
 							"shortDescription": {
-								"text": "Configurations that are insecure by default"
+								"text": "Dependency version management"
 							},
 							"fullDescription": {
-								"text": "Configurations that are insecure by default"
+								"text": "Dependency version management"
 							}
 						},
 						{
@@ -95,6 +105,16 @@
 							}
 						},
 						{
+							"name": "Access Control",
+							"id": "CAT001",
+							"shortDescription": {
+								"text": "Service permission and identity management"
+							},
+							"fullDescription": {
+								"text": "Service permission and identity management"
+							}
+						},
+						{
 							"name": "Availability",
 							"id": "CAT002",
 							"shortDescription": {
@@ -105,13 +125,33 @@
 							}
 						},
 						{
-							"name": "Networking and Firewall",
-							"id": "CAT009",
+							"name": "Insecure Configurations",
+							"id": "CAT007",
 							"shortDescription": {
-								"text": "Network port exposure and firewall configuration"
+								"text": "Configurations which expose the application unnecessarily"
 							},
 							"fullDescription": {
-								"text": "Network port exposure and firewall configuration"
+								"text": "Configurations which expose the application unnecessarily"
+							}
+						},
+						{
+							"name": "Insecure Defaults",
+							"id": "CAT008",
+							"shortDescription": {
+								"text": "Configurations that are insecure by default"
+							},
+							"fullDescription": {
+								"text": "Configurations that are insecure by default"
+							}
+						},
+						{
+							"name": "Observability",
+							"id": "CAT010",
+							"shortDescription": {
+								"text": "Logging and Monitoring"
+							},
+							"fullDescription": {
+								"text": "Logging and Monitoring"
 							}
 						},
 						{
@@ -135,53 +175,13 @@
 							}
 						},
 						{
-							"name": "Insecure Configurations",
-							"id": "CAT007",
+							"name": "Encryption",
+							"id": "CAT006",
 							"shortDescription": {
-								"text": "Configurations which expose the application unnecessarily"
+								"text": "Data Security and Encryption configuration"
 							},
 							"fullDescription": {
-								"text": "Configurations which expose the application unnecessarily"
-							}
-						},
-						{
-							"name": "Resource Management",
-							"id": "CAT011",
-							"shortDescription": {
-								"text": "Resource and privilege limit configuration"
-							},
-							"fullDescription": {
-								"text": "Resource and privilege limit configuration"
-							}
-						},
-						{
-							"name": "Access Control",
-							"id": "CAT001",
-							"shortDescription": {
-								"text": "Service permission and identity management"
-							},
-							"fullDescription": {
-								"text": "Service permission and identity management"
-							}
-						},
-						{
-							"name": "Backup",
-							"id": "CAT003",
-							"shortDescription": {
-								"text": "Survivability and Recovery"
-							},
-							"fullDescription": {
-								"text": "Survivability and Recovery"
-							}
-						},
-						{
-							"name": "Observability",
-							"id": "CAT010",
-							"shortDescription": {
-								"text": "Logging and Monitoring"
-							},
-							"fullDescription": {
-								"text": "Logging and Monitoring"
+								"text": "Data Security and Encryption configuration"
 							}
 						}
 					]
