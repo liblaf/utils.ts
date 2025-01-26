@@ -35,36 +35,6 @@
 							}
 						},
 						{
-							"name": "Resource Management",
-							"id": "CAT011",
-							"shortDescription": {
-								"text": "Resource and privilege limit configuration"
-							},
-							"fullDescription": {
-								"text": "Resource and privilege limit configuration"
-							}
-						},
-						{
-							"name": "Secret Management",
-							"id": "CAT012",
-							"shortDescription": {
-								"text": "Secret and Key management"
-							},
-							"fullDescription": {
-								"text": "Secret and Key management"
-							}
-						},
-						{
-							"name": "Availability",
-							"id": "CAT002",
-							"shortDescription": {
-								"text": "Reliability and Scalability"
-							},
-							"fullDescription": {
-								"text": "Reliability and Scalability"
-							}
-						},
-						{
 							"name": "Build Process",
 							"id": "CAT005",
 							"shortDescription": {
@@ -75,13 +45,13 @@
 							}
 						},
 						{
-							"name": "Networking and Firewall",
-							"id": "CAT009",
+							"name": "Insecure Defaults",
+							"id": "CAT008",
 							"shortDescription": {
-								"text": "Network port exposure and firewall configuration"
+								"text": "Configurations that are insecure by default"
 							},
 							"fullDescription": {
-								"text": "Network port exposure and firewall configuration"
+								"text": "Configurations that are insecure by default"
 							}
 						},
 						{
@@ -95,26 +65,6 @@
 							}
 						},
 						{
-							"name": "Backup",
-							"id": "CAT003",
-							"shortDescription": {
-								"text": "Survivability and Recovery"
-							},
-							"fullDescription": {
-								"text": "Survivability and Recovery"
-							}
-						},
-						{
-							"name": "Best Practices",
-							"id": "CAT004",
-							"shortDescription": {
-								"text": "Metadata management"
-							},
-							"fullDescription": {
-								"text": "Metadata management"
-							}
-						},
-						{
 							"name": "Insecure Configurations",
 							"id": "CAT007",
 							"shortDescription": {
@@ -125,33 +75,53 @@
 							}
 						},
 						{
-							"name": "Bill Of Materials",
-							"id": "CAT015",
+							"name": "Resource Management",
+							"id": "CAT011",
 							"shortDescription": {
-								"text": "List of resources provisioned"
+								"text": "Resource and privilege limit configuration"
 							},
 							"fullDescription": {
-								"text": "List of resources provisioned"
+								"text": "Resource and privilege limit configuration"
 							}
 						},
 						{
-							"name": "Access Control",
-							"id": "CAT001",
+							"name": "Availability",
+							"id": "CAT002",
 							"shortDescription": {
-								"text": "Service permission and identity management"
+								"text": "Reliability and Scalability"
 							},
 							"fullDescription": {
-								"text": "Service permission and identity management"
+								"text": "Reliability and Scalability"
 							}
 						},
 						{
-							"name": "Encryption",
-							"id": "CAT006",
+							"name": "Backup",
+							"id": "CAT003",
 							"shortDescription": {
-								"text": "Data Security and Encryption configuration"
+								"text": "Survivability and Recovery"
 							},
 							"fullDescription": {
-								"text": "Data Security and Encryption configuration"
+								"text": "Survivability and Recovery"
+							}
+						},
+						{
+							"name": "Networking and Firewall",
+							"id": "CAT009",
+							"shortDescription": {
+								"text": "Network port exposure and firewall configuration"
+							},
+							"fullDescription": {
+								"text": "Network port exposure and firewall configuration"
+							}
+						},
+						{
+							"name": "Secret Management",
+							"id": "CAT012",
+							"shortDescription": {
+								"text": "Secret and Key management"
+							},
+							"fullDescription": {
+								"text": "Secret and Key management"
 							}
 						},
 						{
@@ -165,6 +135,36 @@
 							}
 						},
 						{
+							"name": "Access Control",
+							"id": "CAT001",
+							"shortDescription": {
+								"text": "Service permission and identity management"
+							},
+							"fullDescription": {
+								"text": "Service permission and identity management"
+							}
+						},
+						{
+							"name": "Best Practices",
+							"id": "CAT004",
+							"shortDescription": {
+								"text": "Metadata management"
+							},
+							"fullDescription": {
+								"text": "Metadata management"
+							}
+						},
+						{
+							"name": "Encryption",
+							"id": "CAT006",
+							"shortDescription": {
+								"text": "Data Security and Encryption configuration"
+							},
+							"fullDescription": {
+								"text": "Data Security and Encryption configuration"
+							}
+						},
+						{
 							"name": "Structure and Semantics",
 							"id": "CAT014",
 							"shortDescription": {
@@ -175,13 +175,13 @@
 							}
 						},
 						{
-							"name": "Insecure Defaults",
-							"id": "CAT008",
+							"name": "Bill Of Materials",
+							"id": "CAT015",
 							"shortDescription": {
-								"text": "Configurations that are insecure by default"
+								"text": "List of resources provisioned"
 							},
 							"fullDescription": {
-								"text": "Configurations that are insecure by default"
+								"text": "List of resources provisioned"
 							}
 						}
 					]
