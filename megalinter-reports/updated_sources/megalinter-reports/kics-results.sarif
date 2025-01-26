@@ -35,16 +35,6 @@
 							}
 						},
 						{
-							"name": "Resource Management",
-							"id": "CAT011",
-							"shortDescription": {
-								"text": "Resource and privilege limit configuration"
-							},
-							"fullDescription": {
-								"text": "Resource and privilege limit configuration"
-							}
-						},
-						{
 							"name": "Access Control",
 							"id": "CAT001",
 							"shortDescription": {
@@ -55,23 +45,13 @@
 							}
 						},
 						{
-							"name": "Encryption",
-							"id": "CAT006",
+							"name": "Backup",
+							"id": "CAT003",
 							"shortDescription": {
-								"text": "Data Security and Encryption configuration"
+								"text": "Survivability and Recovery"
 							},
 							"fullDescription": {
-								"text": "Data Security and Encryption configuration"
-							}
-						},
-						{
-							"name": "Insecure Defaults",
-							"id": "CAT008",
-							"shortDescription": {
-								"text": "Configurations that are insecure by default"
-							},
-							"fullDescription": {
-								"text": "Configurations that are insecure by default"
+								"text": "Survivability and Recovery"
 							}
 						},
 						{
@@ -85,16 +65,6 @@
 							}
 						},
 						{
-							"name": "Build Process",
-							"id": "CAT005",
-							"shortDescription": {
-								"text": "Insecure configurations when building/deploying"
-							},
-							"fullDescription": {
-								"text": "Insecure configurations when building/deploying"
-							}
-						},
-						{
 							"name": "Insecure Configurations",
 							"id": "CAT007",
 							"shortDescription": {
@@ -105,13 +75,23 @@
 							}
 						},
 						{
-							"name": "Observability",
-							"id": "CAT010",
+							"name": "Networking and Firewall",
+							"id": "CAT009",
 							"shortDescription": {
-								"text": "Logging and Monitoring"
+								"text": "Network port exposure and firewall configuration"
 							},
 							"fullDescription": {
-								"text": "Logging and Monitoring"
+								"text": "Network port exposure and firewall configuration"
+							}
+						},
+						{
+							"name": "Supply-Chain",
+							"id": "CAT013",
+							"shortDescription": {
+								"text": "Dependency version management"
+							},
+							"fullDescription": {
+								"text": "Dependency version management"
 							}
 						},
 						{
@@ -135,33 +115,43 @@
 							}
 						},
 						{
-							"name": "Availability",
-							"id": "CAT002",
+							"name": "Build Process",
+							"id": "CAT005",
 							"shortDescription": {
-								"text": "Reliability and Scalability"
+								"text": "Insecure configurations when building/deploying"
 							},
 							"fullDescription": {
-								"text": "Reliability and Scalability"
+								"text": "Insecure configurations when building/deploying"
 							}
 						},
 						{
-							"name": "Backup",
-							"id": "CAT003",
+							"name": "Insecure Defaults",
+							"id": "CAT008",
 							"shortDescription": {
-								"text": "Survivability and Recovery"
+								"text": "Configurations that are insecure by default"
 							},
 							"fullDescription": {
-								"text": "Survivability and Recovery"
+								"text": "Configurations that are insecure by default"
 							}
 						},
 						{
-							"name": "Networking and Firewall",
-							"id": "CAT009",
+							"name": "Resource Management",
+							"id": "CAT011",
 							"shortDescription": {
-								"text": "Network port exposure and firewall configuration"
+								"text": "Resource and privilege limit configuration"
 							},
 							"fullDescription": {
-								"text": "Network port exposure and firewall configuration"
+								"text": "Resource and privilege limit configuration"
+							}
+						},
+						{
+							"name": "Encryption",
+							"id": "CAT006",
+							"shortDescription": {
+								"text": "Data Security and Encryption configuration"
+							},
+							"fullDescription": {
+								"text": "Data Security and Encryption configuration"
 							}
 						},
 						{
@@ -175,13 +165,23 @@
 							}
 						},
 						{
-							"name": "Supply-Chain",
-							"id": "CAT013",
+							"name": "Availability",
+							"id": "CAT002",
 							"shortDescription": {
-								"text": "Dependency version management"
+								"text": "Reliability and Scalability"
 							},
 							"fullDescription": {
-								"text": "Dependency version management"
+								"text": "Reliability and Scalability"
+							}
+						},
+						{
+							"name": "Observability",
+							"id": "CAT010",
+							"shortDescription": {
+								"text": "Logging and Monitoring"
+							},
+							"fullDescription": {
+								"text": "Logging and Monitoring"
 							}
 						}
 					]
