@@ -35,13 +35,13 @@
 							}
 						},
 						{
-							"name": "Best Practices",
-							"id": "CAT004",
+							"name": "Availability",
+							"id": "CAT002",
 							"shortDescription": {
-								"text": "Metadata management"
+								"text": "Reliability and Scalability"
 							},
 							"fullDescription": {
-								"text": "Metadata management"
+								"text": "Reliability and Scalability"
 							}
 						},
 						{
@@ -55,33 +55,23 @@
 							}
 						},
 						{
-							"name": "Access Control",
-							"id": "CAT001",
+							"name": "Supply-Chain",
+							"id": "CAT013",
 							"shortDescription": {
-								"text": "Service permission and identity management"
+								"text": "Dependency version management"
 							},
 							"fullDescription": {
-								"text": "Service permission and identity management"
+								"text": "Dependency version management"
 							}
 						},
 						{
-							"name": "Build Process",
-							"id": "CAT005",
+							"name": "Backup",
+							"id": "CAT003",
 							"shortDescription": {
-								"text": "Insecure configurations when building/deploying"
+								"text": "Survivability and Recovery"
 							},
 							"fullDescription": {
-								"text": "Insecure configurations when building/deploying"
-							}
-						},
-						{
-							"name": "Encryption",
-							"id": "CAT006",
-							"shortDescription": {
-								"text": "Data Security and Encryption configuration"
-							},
-							"fullDescription": {
-								"text": "Data Security and Encryption configuration"
+								"text": "Survivability and Recovery"
 							}
 						},
 						{
@@ -115,33 +105,13 @@
 							}
 						},
 						{
-							"name": "Backup",
-							"id": "CAT003",
+							"name": "Best Practices",
+							"id": "CAT004",
 							"shortDescription": {
-								"text": "Survivability and Recovery"
+								"text": "Metadata management"
 							},
 							"fullDescription": {
-								"text": "Survivability and Recovery"
-							}
-						},
-						{
-							"name": "Insecure Defaults",
-							"id": "CAT008",
-							"shortDescription": {
-								"text": "Configurations that are insecure by default"
-							},
-							"fullDescription": {
-								"text": "Configurations that are insecure by default"
-							}
-						},
-						{
-							"name": "Availability",
-							"id": "CAT002",
-							"shortDescription": {
-								"text": "Reliability and Scalability"
-							},
-							"fullDescription": {
-								"text": "Reliability and Scalability"
+								"text": "Metadata management"
 							}
 						},
 						{
@@ -165,16 +135,6 @@
 							}
 						},
 						{
-							"name": "Supply-Chain",
-							"id": "CAT013",
-							"shortDescription": {
-								"text": "Dependency version management"
-							},
-							"fullDescription": {
-								"text": "Dependency version management"
-							}
-						},
-						{
 							"name": "Structure and Semantics",
 							"id": "CAT014",
 							"shortDescription": {
@@ -182,6 +142,46 @@
 							},
 							"fullDescription": {
 								"text": "Malformed document structure or inadequate semantics"
+							}
+						},
+						{
+							"name": "Access Control",
+							"id": "CAT001",
+							"shortDescription": {
+								"text": "Service permission and identity management"
+							},
+							"fullDescription": {
+								"text": "Service permission and identity management"
+							}
+						},
+						{
+							"name": "Build Process",
+							"id": "CAT005",
+							"shortDescription": {
+								"text": "Insecure configurations when building/deploying"
+							},
+							"fullDescription": {
+								"text": "Insecure configurations when building/deploying"
+							}
+						},
+						{
+							"name": "Encryption",
+							"id": "CAT006",
+							"shortDescription": {
+								"text": "Data Security and Encryption configuration"
+							},
+							"fullDescription": {
+								"text": "Data Security and Encryption configuration"
+							}
+						},
+						{
+							"name": "Insecure Defaults",
+							"id": "CAT008",
+							"shortDescription": {
+								"text": "Configurations that are insecure by default"
+							},
+							"fullDescription": {
+								"text": "Configurations that are insecure by default"
 							}
 						}
 					]
