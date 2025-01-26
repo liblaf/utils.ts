@@ -35,6 +35,66 @@
 							}
 						},
 						{
+							"name": "Encryption",
+							"id": "CAT006",
+							"shortDescription": {
+								"text": "Data Security and Encryption configuration"
+							},
+							"fullDescription": {
+								"text": "Data Security and Encryption configuration"
+							}
+						},
+						{
+							"name": "Resource Management",
+							"id": "CAT011",
+							"shortDescription": {
+								"text": "Resource and privilege limit configuration"
+							},
+							"fullDescription": {
+								"text": "Resource and privilege limit configuration"
+							}
+						},
+						{
+							"name": "Supply-Chain",
+							"id": "CAT013",
+							"shortDescription": {
+								"text": "Dependency version management"
+							},
+							"fullDescription": {
+								"text": "Dependency version management"
+							}
+						},
+						{
+							"name": "Bill Of Materials",
+							"id": "CAT015",
+							"shortDescription": {
+								"text": "List of resources provisioned"
+							},
+							"fullDescription": {
+								"text": "List of resources provisioned"
+							}
+						},
+						{
+							"name": "Availability",
+							"id": "CAT002",
+							"shortDescription": {
+								"text": "Reliability and Scalability"
+							},
+							"fullDescription": {
+								"text": "Reliability and Scalability"
+							}
+						},
+						{
+							"name": "Build Process",
+							"id": "CAT005",
+							"shortDescription": {
+								"text": "Insecure configurations when building/deploying"
+							},
+							"fullDescription": {
+								"text": "Insecure configurations when building/deploying"
+							}
+						},
+						{
 							"name": "Best Practices",
 							"id": "CAT004",
 							"shortDescription": {
@@ -55,33 +115,13 @@
 							}
 						},
 						{
-							"name": "Observability",
-							"id": "CAT010",
+							"name": "Access Control",
+							"id": "CAT001",
 							"shortDescription": {
-								"text": "Logging and Monitoring"
+								"text": "Service permission and identity management"
 							},
 							"fullDescription": {
-								"text": "Logging and Monitoring"
-							}
-						},
-						{
-							"name": "Secret Management",
-							"id": "CAT012",
-							"shortDescription": {
-								"text": "Secret and Key management"
-							},
-							"fullDescription": {
-								"text": "Secret and Key management"
-							}
-						},
-						{
-							"name": "Supply-Chain",
-							"id": "CAT013",
-							"shortDescription": {
-								"text": "Dependency version management"
-							},
-							"fullDescription": {
-								"text": "Dependency version management"
+								"text": "Service permission and identity management"
 							}
 						},
 						{
@@ -95,63 +135,13 @@
 							}
 						},
 						{
-							"name": "Encryption",
-							"id": "CAT006",
+							"name": "Secret Management",
+							"id": "CAT012",
 							"shortDescription": {
-								"text": "Data Security and Encryption configuration"
+								"text": "Secret and Key management"
 							},
 							"fullDescription": {
-								"text": "Data Security and Encryption configuration"
-							}
-						},
-						{
-							"name": "Insecure Configurations",
-							"id": "CAT007",
-							"shortDescription": {
-								"text": "Configurations which expose the application unnecessarily"
-							},
-							"fullDescription": {
-								"text": "Configurations which expose the application unnecessarily"
-							}
-						},
-						{
-							"name": "Bill Of Materials",
-							"id": "CAT015",
-							"shortDescription": {
-								"text": "List of resources provisioned"
-							},
-							"fullDescription": {
-								"text": "List of resources provisioned"
-							}
-						},
-						{
-							"name": "Access Control",
-							"id": "CAT001",
-							"shortDescription": {
-								"text": "Service permission and identity management"
-							},
-							"fullDescription": {
-								"text": "Service permission and identity management"
-							}
-						},
-						{
-							"name": "Build Process",
-							"id": "CAT005",
-							"shortDescription": {
-								"text": "Insecure configurations when building/deploying"
-							},
-							"fullDescription": {
-								"text": "Insecure configurations when building/deploying"
-							}
-						},
-						{
-							"name": "Insecure Defaults",
-							"id": "CAT008",
-							"shortDescription": {
-								"text": "Configurations that are insecure by default"
-							},
-							"fullDescription": {
-								"text": "Configurations that are insecure by default"
+								"text": "Secret and Key management"
 							}
 						},
 						{
@@ -165,23 +155,33 @@
 							}
 						},
 						{
-							"name": "Availability",
-							"id": "CAT002",
+							"name": "Insecure Defaults",
+							"id": "CAT008",
 							"shortDescription": {
-								"text": "Reliability and Scalability"
+								"text": "Configurations that are insecure by default"
 							},
 							"fullDescription": {
-								"text": "Reliability and Scalability"
+								"text": "Configurations that are insecure by default"
 							}
 						},
 						{
-							"name": "Resource Management",
-							"id": "CAT011",
+							"name": "Observability",
+							"id": "CAT010",
 							"shortDescription": {
-								"text": "Resource and privilege limit configuration"
+								"text": "Logging and Monitoring"
 							},
 							"fullDescription": {
-								"text": "Resource and privilege limit configuration"
+								"text": "Logging and Monitoring"
+							}
+						},
+						{
+							"name": "Insecure Configurations",
+							"id": "CAT007",
+							"shortDescription": {
+								"text": "Configurations which expose the application unnecessarily"
+							},
+							"fullDescription": {
+								"text": "Configurations which expose the application unnecessarily"
 							}
 						}
 					]
