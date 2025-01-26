@@ -24,7 +24,7 @@
             "tool": {
                 "driver": {
                     "informationUri": "https://checkov.io",
-                    "name": "Checkov (MegaLinter REPOSITORY_CHECKOV)",
+                    "name": "Checkov (MegaLinter REPOSITORY_CHECKOV) (MegaLinter REPOSITORY_CHECKOV)",
                     "organization": "bridgecrew",
                     "rules": [],
                     "version": "3.2.311"
@@ -133,7 +133,7 @@
                 "driver": {
                     "fullName": "Microsoft DevSkim Command Line Interface",
                     "informationUri": "https://github.com/microsoft/DevSkim/",
-                    "name": "devskim (MegaLinter REPOSITORY_DEVSKIM)",
+                    "name": "devskim (MegaLinter REPOSITORY_DEVSKIM) (MegaLinter REPOSITORY_DEVSKIM)",
                     "rules": [
                         {
                             "defaultConfiguration": {
@@ -1406,7 +1406,7 @@
             "tool": {
                 "driver": {
                     "informationUri": "https://github.com/anchore/grype",
-                    "name": "grype (MegaLinter REPOSITORY_GRYPE)",
+                    "name": "grype (MegaLinter REPOSITORY_GRYPE) (MegaLinter REPOSITORY_GRYPE)",
                     "version": "0.79.5"
                 }
             }
@@ -1598,7 +1598,7 @@
                 "driver": {
                     "fullName": "Keeping Infrastructure as Code Secure",
                     "informationUri": "https://www.kics.io/",
-                    "name": "KICS (MegaLinter REPOSITORY_KICS)",
+                    "name": "KICS (MegaLinter REPOSITORY_KICS) (MegaLinter REPOSITORY_KICS)",
                     "rules": [],
                     "version": "v2.1.3"
                 }
@@ -1617,7 +1617,7 @@
             "tool": {
                 "driver": {
                     "informationUri": "https://github.com/secretlint/secretlint",
-                    "name": "secretlint (MegaLinter REPOSITORY_SECRETLINT)",
+                    "name": "secretlint (MegaLinter REPOSITORY_SECRETLINT) (MegaLinter REPOSITORY_SECRETLINT)",
                     "rules": [],
                     "version": "1.0.0"
                 }
@@ -12968,7 +12968,7 @@
                         "bomFormat": "CycloneDX",
                         "components": [
                             {
-                                "bom-ref": "ed2b919d-4b09-4fd9-8dcd-dc09f9372a44",
+                                "bom-ref": "f6d65cd2-5fef-407a-be73-bd84215db767",
                                 "name": "pnpm-lock.yaml",
                                 "properties": [
                                     {
@@ -13513,9 +13513,9 @@
                         "dependencies": [
                             {
                                 "dependsOn": [
-                                    "ed2b919d-4b09-4fd9-8dcd-dc09f9372a44"
+                                    "f6d65cd2-5fef-407a-be73-bd84215db767"
                                 ],
-                                "ref": "9f0dea9b-8e16-4fdc-8bb2-ae4e7e4a4696"
+                                "ref": "a591fab1-8c19-4909-a181-df03ef0e0598"
                             },
                             {
                                 "dependsOn": [
@@ -13526,7 +13526,7 @@
                                     "pkg:npm/std-env@3.8.0",
                                     "pkg:npm/typescript@5.7.2"
                                 ],
-                                "ref": "ed2b919d-4b09-4fd9-8dcd-dc09f9372a44"
+                                "ref": "f6d65cd2-5fef-407a-be73-bd84215db767"
                             },
                             {
                                 "dependsOn": [],
@@ -13694,7 +13694,7 @@
                         ],
                         "metadata": {
                             "component": {
-                                "bom-ref": "9f0dea9b-8e16-4fdc-8bb2-ae4e7e4a4696",
+                                "bom-ref": "a591fab1-8c19-4909-a181-df03ef0e0598",
                                 "name": ".",
                                 "properties": [
                                     {
@@ -13704,7 +13704,7 @@
                                 ],
                                 "type": "application"
                             },
-                            "timestamp": "2025-01-26T01:08:57+00:00",
+                            "timestamp": "2025-01-26T01:12:04+00:00",
                             "tools": {
                                 "components": [
                                     {
@@ -13716,7 +13716,7 @@
                                 ]
                             }
                         },
-                        "serialNumber": "urn:uuid:eac99780-2b43-4c84-af1c-a010258a15c0",
+                        "serialNumber": "urn:uuid:b345c57b-c06f-4e6d-9617-a635fb8504d2",
                         "specVersion": "1.6",
                         "version": 1,
                         "vulnerabilities": []
