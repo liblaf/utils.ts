@@ -20,10 +20,10 @@
                         "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
                         "bomFormat": "CycloneDX",
                         "specVersion": "1.6",
-                        "serialNumber": "urn:uuid:55a313d3-8dd5-48ef-8da9-1d46b0339d99",
+                        "serialNumber": "urn:uuid:62cfaf8e-a2f1-4209-836b-774d46b44fd6",
                         "version": 1,
                         "metadata": {
-                            "timestamp": "2025-01-26T05:11:03+00:00",
+                            "timestamp": "2025-01-26T05:14:17+00:00",
                             "tools": {
                                 "components": [
                                     {
@@ -35,7 +35,7 @@
                                 ]
                             },
                             "component": {
-                                "bom-ref": "0177cddb-3d3f-4d74-b74c-6421bbbc7952",
+                                "bom-ref": "8b389b94-7b91-48a0-859a-4d6eeb9b9a94",
                                 "type": "application",
                                 "name": ".",
                                 "properties": [
@@ -48,7 +48,7 @@
                         },
                         "components": [
                             {
-                                "bom-ref": "1db898c4-8600-482d-a2d5-c60599939d9c",
+                                "bom-ref": "74d18bdd-b1e7-4eda-bc06-15fbc83b9a44",
                                 "type": "application",
                                 "name": "pnpm-lock.yaml",
                                 "properties": [
@@ -592,13 +592,7 @@
                         ],
                         "dependencies": [
                             {
-                                "ref": "0177cddb-3d3f-4d74-b74c-6421bbbc7952",
-                                "dependsOn": [
-                                    "1db898c4-8600-482d-a2d5-c60599939d9c"
-                                ]
-                            },
-                            {
-                                "ref": "1db898c4-8600-482d-a2d5-c60599939d9c",
+                                "ref": "74d18bdd-b1e7-4eda-bc06-15fbc83b9a44",
                                 "dependsOn": [
                                     "pkg:npm/js-base64@3.7.7",
                                     "pkg:npm/loupe@3.1.2",
@@ -606,6 +600,12 @@
                                     "pkg:npm/pino@9.6.0",
                                     "pkg:npm/std-env@3.8.0",
                                     "pkg:npm/typescript@5.7.2"
+                                ]
+                            },
+                            {
+                                "ref": "8b389b94-7b91-48a0-859a-4d6eeb9b9a94",
+                                "dependsOn": [
+                                    "74d18bdd-b1e7-4eda-bc06-15fbc83b9a44"
                                 ]
                             },
                             {
