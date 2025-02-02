@@ -1,12 +1,15 @@
 # Changelog
 
-## [0.0.7](https://github.com/liblaf/utils.ts/compare/v0.0.6...v0.0.7) (2025-02-02)
-
+## [0.0.7](https://github.com/liblaf/utils.ts/compare/v0.0.6..v0.0.7) - 2025-02-02
 
 ### ⬆️ Dependencies
 
-* **deps:** update dependency loupe to v3.1.3 ([#17](https://github.com/liblaf/utils.ts/issues/17)) ([ce57ae3](https://github.com/liblaf/utils.ts/commit/ce57ae3d117bb3bfe6b3a008477621e2ab5bed35))
-* **deps:** update dependency tsup to v8.3.6 ([#15](https://github.com/liblaf/utils.ts/issues/15)) ([d512505](https://github.com/liblaf/utils.ts/commit/d512505c0e77647e0da7897dd1dcf7283ac02f2f))
+- **deps:** update dependency loupe to v3.1.3 (#17) - ([ce57ae3](https://github.com/liblaf/utils.ts/commit/ce57ae3d117bb3bfe6b3a008477621e2ab5bed35))
+
+### ❤️ New Contributors
+
+- @liblaf made their first contribution
+- @renovate[bot] made their first contribution in [#15](https://github.com/liblaf/utils.ts/pull/15)
 
 ## [0.0.3](https://github.com/liblaf/utils.ts/compare/v0.0.2..v0.0.3) - 2024-12-29
 
