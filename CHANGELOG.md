@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.0.7](https://github.com/liblaf/utils.ts/compare/v0.0.6..v0.0.7) - 2025-02-02
+## [0.0.7](https://github.com/liblaf/utils.ts/compare/v0.0.6..v0.0.7) - 2025-02-04
 
 ### ⬆️ Dependencies
 
@@ -8,8 +8,7 @@
 
 ### ❤️ New Contributors
 
-- @liblaf made their first contribution
-- @renovate[bot] made their first contribution in [#15](https://github.com/liblaf/utils.ts/pull/15)
+- @github-actions[bot] made their first contribution in [#18](https://github.com/liblaf/utils.ts/pull/18)
 
 ## [0.0.3](https://github.com/liblaf/utils.ts/compare/v0.0.2..v0.0.3) - 2024-12-29
 
