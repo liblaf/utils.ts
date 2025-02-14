@@ -1,14 +1,6 @@
 # Changelog
 
-## [0.0.8](https://github.com/liblaf/utils.ts/compare/v0.0.7...v0.0.8) (2025-02-14)
-
-
-### ⬆️ Dependencies
-
-* **deps:** update dependency prettier to v3.5.0 ([#19](https://github.com/liblaf/utils.ts/issues/19)) ([b873979](https://github.com/liblaf/utils.ts/commit/b873979a51e231e4bc6b924c16cfc21bc0721d7f))
-* **deps:** update dependency prettier to v3.5.1 ([#21](https://github.com/liblaf/utils.ts/issues/21)) ([1bfeab5](https://github.com/liblaf/utils.ts/commit/1bfeab586e13c7a01ec07a825f7c75125d166620))
-
-## [0.0.7](https://github.com/liblaf/utils.ts/compare/v0.0.6..v0.0.7) - 2025-02-02
+## [0.0.7](https://github.com/liblaf/utils.ts/compare/v0.0.6..v0.0.7) - 2025-02-04
 
 ### ⬆️ Dependencies
 
@@ -16,8 +8,7 @@
 
 ### ❤️ New Contributors
 
-- @liblaf made their first contribution
-- @renovate[bot] made their first contribution in [#15](https://github.com/liblaf/utils.ts/pull/15)
+- @github-actions[bot] made their first contribution in [#18](https://github.com/liblaf/utils.ts/pull/18)
 
 ## [0.0.3](https://github.com/liblaf/utils.ts/compare/v0.0.2..v0.0.3) - 2024-12-29
 
