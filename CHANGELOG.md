@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.0.16](https://github.com/liblaf/utils.ts/compare/v0.0.15..v0.0.16) - 2025-02-15
+
+### 🐛 Bug Fixes
+
+- trigger release - ([3306297](https://github.com/liblaf/utils.ts/commit/33062978d8f385401c0182df3af33f8f847d4564))
+
+### ❤️ New Contributors
+
+- @liblaf made their first contribution
+
 ## [0.0.15](https://github.com/liblaf/utils.ts/compare/v0.0.14..v0.0.15) - 2025-02-15
 
 ### 🐛 Bug Fixes
@@ -9,10 +19,6 @@
 ### 🔧 Continuous Integration
 
 - remove provenance flag from publish command - ([f8ba14c](https://github.com/liblaf/utils.ts/commit/f8ba14cf2b358f53d8bd2bb2f50f091a039d4636))
-
-### ❤️ New Contributors
-
-- @liblaf made their first contribution
 
 ## [0.0.14](https://github.com/liblaf/utils.ts/compare/v0.0.13..v0.0.14) - 2025-02-15
 
