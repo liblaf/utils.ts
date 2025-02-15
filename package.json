@@ -1,11 +1,8 @@
 {
-  "$schema": "https://json.schemastore.org/package.json",
   "name": "@liblaf/utils",
   "version": "0.0.7",
   "description": "TODO",
-  "keywords": [
-    "TODO"
-  ],
+  "keywords": [],
   "homepage": "https://github.com/liblaf/utils.ts",
   "bugs": {
     "url": "https://github.com/liblaf/utils.ts/issues"
@@ -13,50 +10,48 @@
   "license": "MIT",
   "author": {
     "name": "liblaf",
-    "email": "30631553+liblaf@users.noreply.github.com",
-    "url": "https://github.com/liblaf"
+    "url": "https://github.com/liblaf",
+    "email": "30631553+liblaf@users.noreply.github.com"
   },
-  "files": [
-    "./dist"
-  ],
+  "files": ["dist"],
   "exports": {
     ".": {
       "import": {
-        "types": "./dist/index.d.mts",
-        "default": "./dist/index.mjs"
-      },
-      "require": {
         "types": "./dist/index.d.ts",
         "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
       }
     }
   },
-  "main": "./dist/index.js",
+  "type": "module",
   "repository": "github:liblaf/utils.ts",
   "scripts": {
     "build": "tsup",
-    "lint": "prettier --write . && biome check --write",
-    "prepack": "pnpm run build"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "@cloudflare/workers-types": "^4.20241224.0",
-    "prettier": "^3.4.2",
-    "tsup": "^8.3.5"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "publishConfig": {
-    "access": "public",
-    "provenance": true,
-    "registry": "https://registry.npmjs.org/"
+    "check": "biome check --write",
+    "prepack": "tsup"
   },
   "dependencies": {
     "js-base64": "^3.7.7",
-    "loupe": "^3.1.2",
     "pino": "^9.6.0",
     "pino-pretty": "^13.0.0",
     "std-env": "^3.8.0"
-  }
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@tsconfig/bun": "^1.0.7",
+    "@types/bun": "^1.2.2",
+    "tsup": "^8.3.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org",
+    "provenance": true
+  },
+  "readme": "README.md"
 }
