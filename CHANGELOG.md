@@ -1,16 +1,18 @@
 # Changelog
 
-## [0.0.14](https://github.com/liblaf/utils.ts/compare/v0.0.13...v0.0.14) (2025-02-15)
-
+## [0.0.14](https://github.com/liblaf/utils.ts/compare/v0.0.13..v0.0.14) - 2025-02-15
 
 ### 🐛 Bug Fixes
 
-* trigger release ([f3bcb8c](https://github.com/liblaf/utils.ts/commit/f3bcb8c9dbb6962f5d64f9d86fa86cf371232f63))
-
+- trigger release - ([f3bcb8c](https://github.com/liblaf/utils.ts/commit/f3bcb8c9dbb6962f5d64f9d86fa86cf371232f63))
 
 ### 🔧 Continuous Integration
 
-* enable provenance for JSR publish ([57a7751](https://github.com/liblaf/utils.ts/commit/57a7751252d868f99a736ea8f7e52c3ee2c0c9f8))
+- enable provenance for JSR publish - ([57a7751](https://github.com/liblaf/utils.ts/commit/57a7751252d868f99a736ea8f7e52c3ee2c0c9f8))
+
+### ❤️ New Contributors
+
+- @liblaf made their first contribution
 
 ## [0.0.13](https://github.com/liblaf/utils.ts/compare/v0.0.12..v0.0.13) - 2025-02-15
 
@@ -21,10 +23,6 @@
 ### 🔧 Continuous Integration
 
 - add JSR configuration and update release workflow - ([e705ad2](https://github.com/liblaf/utils.ts/commit/e705ad233459fbd5b7e9f0defa264cecd4a5e954))
-
-### ❤️ New Contributors
-
-- @liblaf made their first contribution
 
 ## [0.0.12](https://github.com/liblaf/utils.ts/compare/v0.0.11..v0.0.12) - 2025-02-15
 
