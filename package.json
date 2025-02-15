@@ -1,6 +1,6 @@
 {
   "name": "@liblaf/utils",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "TODO",
   "keywords": [],
   "homepage": "https://github.com/liblaf/utils.ts",
@@ -13,7 +13,9 @@
     "url": "https://github.com/liblaf",
     "email": "30631553+liblaf@users.noreply.github.com"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "import": {
