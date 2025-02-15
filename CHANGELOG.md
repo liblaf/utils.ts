@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.0.8](https://github.com/liblaf/utils.ts/compare/v0.0.8..v0.0.8) - 2025-02-15
+
+### 🔧 Continuous Integration
+
+- update Bun setup in release workflow - ([4787f0d](https://github.com/liblaf/utils.ts/commit/4787f0d48423cbb89da61aba9a3e8e19c25586db))
+
+### ❤️ New Contributors
+
+- @liblaf made their first contribution
+
 ## [0.0.7](https://github.com/liblaf/utils.ts/compare/v0.0.6..v0.0.7) - 2025-02-04
 
 ### ⬆️ Dependencies
