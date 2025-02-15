@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.12](https://github.com/liblaf/utils.ts/compare/v0.0.11...v0.0.12) (2025-02-15)
+
+
+### 🐛 Bug Fixes
+
+* trigger release ([228b60c](https://github.com/liblaf/utils.ts/commit/228b60cc958e46d3a0d87bbef7f7c1ecf82aa2d6))
+
+
+### 🔧 Continuous Integration
+
+* add Node.js setup step in release workflow ([cf8f358](https://github.com/liblaf/utils.ts/commit/cf8f35888817922411b7c1ab988cc4ed4280ed86))
+
 ## [0.0.11](https://github.com/liblaf/utils.ts/compare/v0.0.10..v0.0.11) - 2025-02-15
 
 ### 🐛 Bug Fixes
