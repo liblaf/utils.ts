@@ -1,16 +1,18 @@
 # Changelog
 
-## [0.0.11](https://github.com/liblaf/utils.ts/compare/v0.0.10...v0.0.11) (2025-02-15)
-
+## [0.0.11](https://github.com/liblaf/utils.ts/compare/v0.0.10..v0.0.11) - 2025-02-15
 
 ### 🐛 Bug Fixes
 
-* trigger release ([7aa8f0d](https://github.com/liblaf/utils.ts/commit/7aa8f0d223317b599871fde8bf594c1c31d5b6be))
-
+- trigger release - ([7aa8f0d](https://github.com/liblaf/utils.ts/commit/7aa8f0d223317b599871fde8bf594c1c31d5b6be))
 
 ### 🔧 Continuous Integration
 
-* switch from `bunx npm publish` to `npm publish` ([d431c5e](https://github.com/liblaf/utils.ts/commit/d431c5e0178acc5f0fd705c0fe5cc9a8c181a26c))
+- switch from `bunx npm publish` to `npm publish` - ([d431c5e](https://github.com/liblaf/utils.ts/commit/d431c5e0178acc5f0fd705c0fe5cc9a8c181a26c))
+
+### ❤️ New Contributors
+
+- @liblaf made their first contribution
 
 ## [0.0.10](https://github.com/liblaf/utils.ts/compare/v0.0.8..v0.0.10) - 2025-02-15
 
@@ -21,11 +23,6 @@
 ### 🔧 Continuous Integration
 
 - update Bun setup in release workflow - ([4787f0d](https://github.com/liblaf/utils.ts/commit/4787f0d48423cbb89da61aba9a3e8e19c25586db))
-
-### ❤️ New Contributors
-
-- @liblaf made their first contribution
-- @github-actions[bot] made their first contribution in [#22](https://github.com/liblaf/utils.ts/pull/22)
 
 ## [0.0.7](https://github.com/liblaf/utils.ts/compare/v0.0.6..v0.0.7) - 2025-02-04
 
