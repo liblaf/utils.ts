@@ -26,7 +26,10 @@ export class FetchError extends Error {
     if (options?.resp) {
       this.status = options.resp.status;
       this.statusText = options.resp.statusText;
-      this.headers = Object.fromEntries(options.resp.headers.entries());
+      this.headers = {};
+      options.resp.headers.forEach((value, key) => {
+        this.headers![key] = value;
+      });
     }
     this.body = options?.body;
   }

@@ -10,7 +10,7 @@ export function newLogger(options?: { name?: string }): Logger<never, boolean> {
     browser: {
       asObject: true,
       formatters: {
-        level(label: string, number: number): object {
+        level(label: string, _number: number): object {
           return { level: label };
         },
       },

@@ -37,7 +37,9 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
       - name: Install Dependencies
-        run: bun install
+        run: |-
+          bun install
+          bun pm bin >> "$GITHUB_PATH"
       - name: Build
         run: bun pm pack --destination pack/
       - name: Upload Artifacts
@@ -61,7 +63,9 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
       - name: Install Dependencies
-        run: bun install
+        run: |-
+          bun install
+          bun pm bin >> "$GITHUB_PATH"
       - name: Publish
         run: bunx npm publish # TODO: switch to `bun publish` when <https://github.com/oven-sh/bun/issues/15601> is resolved
         env:
@@ -84,7 +88,9 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
       - name: Install Dependencies
-        run: bun install
+        run: |-
+          bun install
+          bun pm bin >> "$GITHUB_PATH"
       - name: Publish
         run: bunx jsr publish
 
