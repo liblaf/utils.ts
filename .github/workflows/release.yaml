@@ -96,7 +96,7 @@ jobs:
           bun install
           bun pm bin >> "$GITHUB_PATH"
       - name: Publish
-        run: bunx jsr publish
+        run: bunx jsr publish --provenance
 
   pre-release:
     name: Pre-Release
