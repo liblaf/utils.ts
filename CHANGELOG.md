@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.13](https://github.com/liblaf/utils.ts/compare/v0.0.12...v0.0.13) (2025-02-15)
+
+
+### 🐛 Bug Fixes
+
+* trigger release ([a6d651b](https://github.com/liblaf/utils.ts/commit/a6d651b4205888133b25703b91eb2875bfb345b2))
+
+
+### 🔧 Continuous Integration
+
+* add JSR configuration and update release workflow ([e705ad2](https://github.com/liblaf/utils.ts/commit/e705ad233459fbd5b7e9f0defa264cecd4a5e954))
+
 ## [0.0.12](https://github.com/liblaf/utils.ts/compare/v0.0.11..v0.0.12) - 2025-02-15
 
 ### 🐛 Bug Fixes
