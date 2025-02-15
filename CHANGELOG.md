@@ -1,6 +1,10 @@
 # Changelog
 
-## [0.0.8](https://github.com/liblaf/utils.ts/compare/v0.0.8..v0.0.8) - 2025-02-15
+## [0.0.10](https://github.com/liblaf/utils.ts/compare/v0.0.8..v0.0.10) - 2025-02-15
+
+### 🐛 Bug Fixes
+
+- trigger release - ([334cddb](https://github.com/liblaf/utils.ts/commit/334cddbef478d0203d3e680c559f26a084c9ef91))
 
 ### 🔧 Continuous Integration
 
@@ -9,6 +13,7 @@
 ### ❤️ New Contributors
 
 - @liblaf made their first contribution
+- @github-actions[bot] made their first contribution in [#22](https://github.com/liblaf/utils.ts/pull/22)
 
 ## [0.0.7](https://github.com/liblaf/utils.ts/compare/v0.0.6..v0.0.7) - 2025-02-04
 
