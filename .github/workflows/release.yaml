@@ -22,7 +22,7 @@ jobs:
       - id: jsr
         name: Detect JSR
         run: |-
-          if [[ -f "jsr.json" ]]; then
+          if [[ -f "jsr.json" || -f "deno.json" ]]; then
             echo "jsr=true" >> "$GITHUB_OUTPUT"
           else
             echo "jsr=false" >> "$GITHUB_OUTPUT"
