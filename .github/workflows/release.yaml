@@ -67,7 +67,7 @@ jobs:
           bun install
           bun pm bin >> "$GITHUB_PATH"
       - name: Publish
-        run: bunx npm publish # TODO: switch to `bun publish` when <https://github.com/oven-sh/bun/issues/15601> is resolved
+        run: npm publish # TODO: switch to `bun publish` when <https://github.com/oven-sh/bun/issues/15601> is resolved
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }} # <https://github.com/npm/cli/issues/1637#issuecomment-1888709776>
 
