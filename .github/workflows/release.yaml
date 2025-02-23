@@ -11,23 +11,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  detect:
-    name: Detect
-    runs-on: ubuntu-latest
-    outputs:
-      jsr: ${{ steps.jsr.outputs.jsr }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - id: jsr
-        name: Detect JSR
-        run: |-
-          if [[ -f "jsr.json" ]]; then
-            echo "jsr=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "jsr=false" >> "$GITHUB_OUTPUT"
-          fi
-
   build:
     name: Build
     runs-on: ubuntu-latest
@@ -48,6 +31,23 @@ jobs:
           name: pack
           path: pack/
 
+  detect:
+    name: Detect Registry
+    runs-on: ubuntu-latest
+    outputs:
+      jsr: ${{ steps.jsr.outputs.jsr }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - id: jsr
+        name: Detect JSR
+        run: |-
+          if [[ -f "jsr.json" ]]; then
+            echo "jsr=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "jsr=false" >> "$GITHUB_OUTPUT"
+          fi
+
   publish:
     name: Publish
     permissions:
@@ -60,6 +60,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          registry-url: https://registry.npmjs.org
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
       - name: Install Dependencies
@@ -67,7 +71,7 @@ jobs:
           bun install
           bun pm bin >> "$GITHUB_PATH"
       - name: Publish
-        run: bunx npm publish # TODO: switch to `bun publish` when <https://github.com/oven-sh/bun/issues/15601> is resolved
+        run: npm publish # TODO: switch to `bun publish` when <https://github.com/oven-sh/bun/issues/15601> is resolved
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }} # <https://github.com/npm/cli/issues/1637#issuecomment-1888709776>
 
@@ -119,7 +123,7 @@ jobs:
           clobber: true
           files: pack/*
           prerelease: true
-          tag: latest
+          tag: dev
 
   release:
     name: Release

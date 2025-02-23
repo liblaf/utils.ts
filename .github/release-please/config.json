@@ -35,12 +35,14 @@
     {
       "type": "chore",
       "scope": "deps",
-      "section": "⬆️ Dependencies"
+      "section": "⬆️ Dependencies",
+      "hidden": true
     },
     {
       "type": "chore",
       "scope": "deps-dev",
-      "section": "⬆️ Dependencies"
+      "section": "⬆️ Dependencies",
+      "hidden": true
     },
     {
       "type": "fix",
